@@ -6,6 +6,7 @@
   "author": "Renato <renatomarquesteles@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "build": "webpack --mode production",
     "build-dev": "webpack --mode development",
     "dev": "webpack-dev-server --mode development"
   },
@@ -23,6 +24,7 @@
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
